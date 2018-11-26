@@ -35,28 +35,35 @@
     </dependency>
 
     <!-- hadoop -->
-    <!--<dependency>-->
-      <!--<groupId>org.apache.hadoop</groupId>-->
-      <!--<artifactId>hadoop-client</artifactId>-->
-      <!--<version>${hadoop.version}</version>-->
-    <!--</dependency>-->
+    <dependency>
+      <groupId>org.apache.hadoop</groupId>
+      <artifactId>hadoop-client</artifactId>
+      <version>${hadoop.version}</version>
+    </dependency>
 
-    <!--&lt;!&ndash; hbase &ndash;&gt;-->
-    <!--<dependency>-->
-      <!--<groupId>org.apache.hbase</groupId>-->
-      <!--<artifactId>hbase-client</artifactId>-->
-      <!--<version>${hbase.version}</version>-->
-    <!--</dependency>-->
-    <!--<dependency>-->
-      <!--<groupId>org.apache.hbase</groupId>-->
-      <!--<artifactId>hbase-server</artifactId>-->
-      <!--<version>${hbase.version}</version>-->
-    <!--</dependency>-->
+    <!-- hbase -->
+    <dependency>
+      <groupId>org.apache.hbase</groupId>
+      <artifactId>hbase-client</artifactId>
+      <version>${hbase.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.hbase</groupId>
+      <artifactId>hbase-server</artifactId>
+      <version>${hbase.version}</version>
+    </dependency>
 
     <!-- spark streaming -->
     <dependency>
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-streaming_2.11</artifactId>
+      <version>${spark.version}</version>
+    </dependency>
+
+    <!-- spark streaming on flume -->
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-streaming-flume_2.11</artifactId>
       <version>${spark.version}</version>
     </dependency>
 

@@ -17,3 +17,7 @@
     6. TransformApp - 使用Transform转换DStream,实现黑名单过滤功能
     
     7. SqlNetworkWordCount - 使用Spark Streaming整合Spark SQL实例
+    
+# Spark Streaming整合Flume实例代码
+
+    1. FlumePushWordCount - Push方式整合代码示例
