@@ -29,3 +29,9 @@
 1. [KafkaReceiveWordCount](https://github.com/wangjiqing/sparktrain/blob/master/src/main/scala/com/sakura/spark/kafka/KafkaReceiverWordCount.scala) - spark streaming 对接Kafka 1 -- receiver （基于zookeeper）
     
 2. [KafkaDirectWordCount](https://github.com/wangjiqing/sparktrain/blob/master/src/main/scala/com/sakura/spark/kafka/KafkaDirectWordCount.scala) - spark streaming 对接Kafka 2 -- direct（工作中基本上使用这个）
+
+# Spark Stream的模拟日志产生的代码（使用log4j）
+
+1. [LoggerGenerator](https://github.com/wangjiqing/sparktrain/blob/master/src/test/java/LoggerGenerator.java) - main
+
+2. [log4j.properties](https://github.com/wangjiqing/sparktrain/blob/master/src/test/resources/log4j.properties) - log4j配置文件
