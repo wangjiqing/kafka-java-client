@@ -27,12 +27,12 @@
       <version>${scala.version}</version>
     </dependency>
 
-    <!-- kafka 依赖 -->
-    <dependency>
-      <groupId>org.apache.kafka</groupId>
-      <artifactId>kafka_2.11</artifactId>
-      <version>${kafka.version}</version>
-    </dependency>
+    <!-- kafka 依赖，如果需要测试 spark streaming与Kafka，需要注释掉，不然会有jar冲突 -->
+    <!--<dependency>-->
+      <!--<groupId>org.apache.kafka</groupId>-->
+      <!--<artifactId>kafka_2.11</artifactId>-->
+      <!--<version>${kafka.version}</version>-->
+    <!--</dependency>-->
 
     <!-- hadoop -->
     <dependency>
@@ -66,17 +66,22 @@
       <artifactId>spark-streaming-flume_2.11</artifactId>
       <version>${spark.version}</version>
     </dependency>
-
     <dependency>
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-streaming-flume-sink_2.11</artifactId>
       <version>${spark.version}</version>
     </dependency>
-
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
       <version>3.5</version>
+    </dependency>
+
+    <!-- spark streaming on kafka 需要注释掉上面的kafka_2.11-->
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-streaming-kafka-0-8_2.11</artifactId>
+      <version>${spark.version}</version>
     </dependency>
 
     <!-- spark sql -->

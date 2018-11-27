@@ -22,4 +22,10 @@
 
     1. FlumePushWordCount - Push方式整合代码示例（Flume主动推送）
     
-    2. FlumePollWordCount - Poll方式整合代码示例（Streaming应用程序主动拉取 【事务性，常用此方法】）
+    2. FlumePollWordCount - Poll方式整合代码示例（Streaming应用程序主动拉取 【事务性，工作中常用此方法】）
+    
+# Spark Stream整合Kafka实例代码
+
+    1. KafkaReceiveWordCount - spark streaming 对接Kafka 1 -- receiver （基于zookeeper）
+    
+    2. KafkaDirectWordCount - spark streaming 对接Kafka 2 -- direct（工作中基本上使用这个）
