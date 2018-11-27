@@ -1,4 +1,4 @@
-package com.sakura.spark
+package com.sakura.spark.app
 
 import java.sql.DriverManager
 

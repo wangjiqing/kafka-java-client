@@ -1,4 +1,4 @@
-package com.sakura.spark
+package com.sakura.spark.flume
 
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.flume.FlumeUtils

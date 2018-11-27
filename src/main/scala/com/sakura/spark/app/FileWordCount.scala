@@ -1,4 +1,4 @@
-package com.sakura.spark
+package com.sakura.spark.app
 
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.{Seconds, StreamingContext}
