@@ -12,7 +12,7 @@ public class LoggerGenerator {
         int index = 0;
 
         while (true) {
-            Thread.sleep(0);
+            Thread.sleep(100);
 
             logger.info("value is : " + index++);
         }
