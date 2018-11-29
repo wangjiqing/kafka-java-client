@@ -19,7 +19,7 @@ public class HBaseUtils {
 
     private HBaseUtils() {
         configuration = new Configuration();
-        configuration.set("hbase.zookeeper.quorum", "192.168.177.133:2181");
+        configuration.set("hbase.zookeeper.quorum", "hadoop000:2181");
         configuration.set("hbase.rootdir", "hdfs://hadoop000:8020/hbase");
 
         try {
@@ -93,21 +93,15 @@ public class HBaseUtils {
 
 
     public static void main(String[] args) throws Exception {
-//        HTable table = HBaseUtils.getInstance().getTable("imooc_course_clickcount");
-//        System.out.println(table.getName().getNameAsString() );
+        HTable table = HBaseUtils.getInstance().getTable("imooc_course_clickcount");
+        System.out.println(table.getName().getNameAsString() );
 
-        String tableName = "imooc_course_clickcount";
-        String rowkey = "20171111_88";
-        String cf = "info";
-        String column = "click_count";
-        String value = "2";
-        HBaseUtils.getInstance().put(tableName, rowkey, cf, column, value);
-
-//        Map<String, Long> map = HBaseUtils.getInstance().query("imooc_course_clickcount" , "20171022");
-//
-//        for(Map.Entry<String, Long> entry: map.entrySet()) {
-//            System.out.println(entry.getKey() + " : " + entry.getValue());
-//        }
+//        String tableName = "imooc_course_clickcount";
+//        String rowkey = "20171111_88";
+//        String cf = "info";
+//        String column = "click_count";
+//        String value = "2";
+//        HBaseUtils.getInstance().put(tableName, rowkey, cf, column, value);
     }
 
 }

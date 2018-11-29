@@ -50,4 +50,10 @@
 
 4. [CourseClickCount](https://github.com/wangjiqing/sparktrain/blob/master/src/main/scala/com/sakura/spark/project/domain/CourseClickCount.scala) - 战课程点击数实体类
 
-5. [CourseClickCountDAO](https://github.com/wangjiqing/sparktrain/blob/master/src/main/scala/com/sakura/spark/project/dao/CourseClickCountDAO.scala) - 数据库访问Dao层方法
+5. [CourseClickCountDAO](https://github.com/wangjiqing/sparktrain/blob/master/src/main/scala/com/sakura/spark/project/dao/CourseClickCountDAO.scala) - 战课程点击数数据库访问Dao层方法
+
+6. [HBaseUtils](https://github.com/wangjiqing/sparktrain/blob/master/src/main/java/com/sakura/spark/kafka/project/utils/HBaseUtils.java) - Java访问HBase客户端工具类
+
+7. [CourseSearchClickCount](https://github.com/wangjiqing/sparktrain/blob/master/src/main/scala/com/sakura/spark/project/domain/CourseSearchClickCount.scala) - 从搜索引擎引流过来的实战课程点击数实体类
+
+8. [CourseSearchClickCountDAO](https://github.com/wangjiqing/sparktrain/blob/master/src/main/scala/com/sakura/spark/project/dao/CourseSearchClickCountDAO.scala) - 从搜索引擎引流过来的实战课程点击数数据访问层
