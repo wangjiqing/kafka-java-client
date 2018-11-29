@@ -38,4 +38,16 @@
 
 # spark streaming 接入kafka的代码
 
-1. [KafkaStreamingApp](https://github.com/wangjiqing/sparktrain/blob/master/src/main/scala/com/sakura.spark/streamingkafka/KafkaStreamingApp.scala) - spark streaming 接入kafka的代码
+1. [KafkaStreamingApp](https://github.com/wangjiqing/sparktrain/blob/master/src/main/scala/com/sakura/spark/streamingkafka/KafkaStreamingApp.scala) - spark streaming 接入kafka的代码
+
+# Spark Streaming实现的project实战使用的demo
+
+1. [StatStreamingApp](https://github.com/wangjiqing/sparktrain/blob/master/src/main/scala/com/sakura/spark/project/spark/StatStreamingApp.scala) - spark streaming 执行主类
+
+2. [DateUtils](https://github.com/wangjiqing/sparktrain/blob/master/src/main/scala/com/sakura/spark/project/utils/DateUtils.scala) - 时间处理工具类
+
+3. [ClickLog](https://github.com/wangjiqing/sparktrain/blob/master/src/main/scala/com/sakura/spark/project/domain/ClickLog.scala) - 保存课程的实体类
+
+4. [CourseClickCount](https://github.com/wangjiqing/sparktrain/blob/master/src/main/scala/com/sakura/spark/project/domain/CourseClickCount.scala) - 战课程点击数实体类
+
+5. [CourseClickCountDAO](https://github.com/wangjiqing/sparktrain/blob/master/src/main/scala/com/sakura/spark/project/dao/CourseClickCountDAO.scala) - 数据库访问Dao层方法
