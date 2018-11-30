@@ -91,7 +91,6 @@ public class HBaseUtils {
         return  map;
     }
 
-
     public static void main(String[] args) throws Exception {
         HTable table = HBaseUtils.getInstance().getTable("imooc_course_clickcount");
         System.out.println(table.getName().getNameAsString() );
@@ -103,5 +102,4 @@ public class HBaseUtils {
 //        String value = "2";
 //        HBaseUtils.getInstance().put(tableName, rowkey, cf, column, value);
     }
-
 }
