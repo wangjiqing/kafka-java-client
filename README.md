@@ -60,6 +60,6 @@
 
 # 扩展使用Java语言开发Spark Core与Spark Streaming应用程序
 
-1. [WordCountApp](https://github.com/wangjiqing/sparktrain/blob/master/src/main/java/com/sakura/spark/WordCountApp.java) - 使用Java语言开发Spark Core应用程序
+1. [WordCountApp](https://github.com/wangjiqing/sparktrain/blob/ce88e4c8fd0a82c0906e20726d25b482fbe51d50/src/main/java/com/sakura/spark/kafka/WordCountApp.java) - 使用Java语言开发Spark Core应用程序
 
-2. [StreamingWordCountApp](https://github.com/wangjiqing/sparktrain/blob/master/src/main/java/com/sakura/spark/StreamingWordCountApp.java) - 使用Java语言开发Spark Streaming应用程序
+2. [StreamingWordCountApp](https://github.com/wangjiqing/sparktrain/blob/ce88e4c8fd0a82c0906e20726d25b482fbe51d50/src/main/java/com/sakura/spark/kafka/StreamingWordCountApp.java) - 使用Java语言开发Spark Streaming应用程序
