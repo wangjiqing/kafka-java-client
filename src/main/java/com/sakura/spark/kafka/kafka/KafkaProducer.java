@@ -1,4 +1,4 @@
-package com.sakura.spark.kafka;
+package com.sakura.spark.kafka.kafka;
 
 import kafka.javaapi.producer.Producer;
 import kafka.producer.KeyedMessage;

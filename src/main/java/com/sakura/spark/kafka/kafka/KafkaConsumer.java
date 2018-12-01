@@ -1,4 +1,4 @@
-package com.sakura.spark.kafka;
+package com.sakura.spark.kafka.kafka;
 
 import kafka.consumer.Consumer;
 import kafka.consumer.ConsumerConfig;

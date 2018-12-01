@@ -1,4 +1,4 @@
-package com.sakura.spark.kafka;
+package com.sakura.spark.kafka.kafka;
 
 /**
  * Kafka 常用配置
